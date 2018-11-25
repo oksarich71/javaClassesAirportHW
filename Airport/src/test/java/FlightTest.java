@@ -8,7 +8,7 @@ public class FlightTest {
 
     @Before
     public void before() {
-        plane = new Plane("EasyJet", Type.BOEING767);
+        plane = new Plane("EasyJet", Type.BOEING767, 80);
         flight = new Flight("Dubai", 978, plane, 500);
         person = new Person(2000);
     }
